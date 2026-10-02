@@ -1,0 +1,8 @@
+[{
+  "modid": "pridecarts",
+  "name": "PrideCarts",
+  "description": "TrainCarts-style minecarts for Forge: trains, action signs (stations, launchers, destinations, switchers...), train properties and /train commands. Inspired by TrainCarts by bergerhealer (MIT).",
+  "version": "0.1.0",
+  "mcversion": "1.12.2",
+  "authorList": ["Pride"]
+}]
