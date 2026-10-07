@@ -26,11 +26,15 @@ public final class Train {
         if (railcraft) {
             try {
                 List<EntityMinecart> l = RailcraftLinks.train(cart);
-                if (!l.isEmpty()) return new Train(l);
+                if (l.size() > 1) return new Train(l);               // a Railcraft train; else try our own couplings
             } catch (Throwable t) {
                 railcraft = false;                                     // API changed: fall back to single carts
                 PrideCarts.LOG.warn("Railcraft linking unavailable ({}); trains are single carts", t.toString());
             }
+        }
+        if (!cart.world.isRemote) {
+            List<EntityMinecart> own = com.dogpound.pridecarts.carts.CartLinks.train(cart);   // our own chains/ropes
+            if (own.size() > 1) return new Train(own);
         }
         return new Train(Collections.singletonList(cart));
     }

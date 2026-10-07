@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["R R", "RXR", "R R"], "key": {"R": {"item": "minecraft:rail"}, "X": {"item": "minecraft:ender_pearl"}}, "result": {"item": "pridecarts:rail_switch_random", "count": 6}}

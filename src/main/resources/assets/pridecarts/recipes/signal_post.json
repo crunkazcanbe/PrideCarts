@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": [" L ", "GIR", " I "], "key": {"L": {"item": "minecraft:redstone_lamp"}, "G": {"item": "minecraft:dye", "data": 10}, "R": {"item": "minecraft:dye", "data": 1}, "I": {"item": "minecraft:iron_ingot"}}, "result": {"item": "pridecarts:signal_post", "count": 2}}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["R R", "RXR", "R R"], "key": {"R": {"item": "minecraft:rail"}, "X": {"item": "minecraft:noteblock"}}, "result": {"item": "pridecarts:rail_whistle", "count": 6}}

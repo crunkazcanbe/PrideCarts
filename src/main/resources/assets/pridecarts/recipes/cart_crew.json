@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "minecraft:minecart"}, {"item": "minecraft:carpet", "data": 12}, {"item": "minecraft:iron_pickaxe"}], "result": {"item": "pridecarts:cart_crew"}}

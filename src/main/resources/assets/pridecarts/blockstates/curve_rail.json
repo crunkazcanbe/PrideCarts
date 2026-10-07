@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "shape=north_south": {
+   "model": "pridecarts:curve_empty"
+  },
+  "shape=east_west": {
+   "model": "pridecarts:curve_empty"
+  },
+  "shape=south_east": {
+   "model": "pridecarts:curve_empty"
+  },
+  "shape=south_west": {
+   "model": "pridecarts:curve_empty"
+  },
+  "shape=north_west": {
+   "model": "pridecarts:curve_empty"
+  },
+  "shape=north_east": {
+   "model": "pridecarts:curve_empty"
+  }
+ }
+}

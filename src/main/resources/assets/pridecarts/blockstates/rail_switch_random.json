@@ -1,0 +1,40 @@
+{
+ "variants": {
+  "shape=north_south": {
+   "model": "pridecarts:rail_switch_random"
+  },
+  "shape=east_west": {
+   "model": "pridecarts:rail_switch_random",
+   "y": 90
+  },
+  "shape=ascending_east": {
+   "model": "pridecarts:rail_switch_random_raised_ne",
+   "y": 90
+  },
+  "shape=ascending_west": {
+   "model": "pridecarts:rail_switch_random_raised_sw",
+   "y": 90
+  },
+  "shape=ascending_north": {
+   "model": "pridecarts:rail_switch_random_raised_ne"
+  },
+  "shape=ascending_south": {
+   "model": "pridecarts:rail_switch_random_raised_sw"
+  },
+  "shape=south_east": {
+   "model": "pridecarts:rail_switch_random_turned"
+  },
+  "shape=south_west": {
+   "model": "pridecarts:rail_switch_random_turned",
+   "y": 90
+  },
+  "shape=north_west": {
+   "model": "pridecarts:rail_switch_random_turned",
+   "y": 180
+  },
+  "shape=north_east": {
+   "model": "pridecarts:rail_switch_random_turned",
+   "y": 270
+  }
+ }
+}

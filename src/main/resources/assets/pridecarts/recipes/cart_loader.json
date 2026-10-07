@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["IHI","IRI","ICI"],"key":{"I":{"item":"minecraft:iron_ingot"},"H":{"item":"minecraft:hopper"},"R":{"item":"minecraft:rail"},"C":{"item":"minecraft:chest"}},"result":{"item":"pridecarts:cart_loader"}}

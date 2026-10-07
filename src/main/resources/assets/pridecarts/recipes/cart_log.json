@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "minecraft:minecart"}, {"item": "minecraft:chest"}, {"item": "minecraft:log", "data": 0}], "result": {"item": "pridecarts:cart_log"}}

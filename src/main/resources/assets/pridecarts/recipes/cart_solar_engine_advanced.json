@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["GDG", "DSD", "GDG"], "key": {"G": {"item": "minecraft:gold_ingot"}, "D": {"item": "minecraft:daylight_detector"}, "S": {"item": "pridecarts:cart_solar_engine"}}, "result": {"item": "pridecarts:cart_solar_engine_advanced"}}

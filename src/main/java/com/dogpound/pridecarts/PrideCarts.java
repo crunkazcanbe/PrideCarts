@@ -23,6 +23,7 @@ public class PrideCarts {
     @Mod.EventHandler
     public void pre(FMLPreInitializationEvent e) {
         MinecraftForge.EVENT_BUS.register(CartEvents.class);
+        com.dogpound.pridecarts.net.PcNet.init();
         SignAction.register(new StationAction());
         SignAction.register(new com.dogpound.pridecarts.signs.SwitcherAction());
         Actions.registerAll();

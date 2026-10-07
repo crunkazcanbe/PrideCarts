@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CCC","ROR","CCC"],"key":{"C":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"},"O":{"item":"minecraft:observer"}},"result":{"item":"pridecarts:railway_observer"}}

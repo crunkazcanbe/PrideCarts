@@ -1,0 +1,34 @@
+{
+ "variants": {
+  "facing=north,red=false": {
+   "model": "pridecarts:signal_post_green"
+  },
+  "facing=north,red=true": {
+   "model": "pridecarts:signal_post_red"
+  },
+  "facing=east,red=false": {
+   "model": "pridecarts:signal_post_green",
+   "y": 90
+  },
+  "facing=east,red=true": {
+   "model": "pridecarts:signal_post_red",
+   "y": 90
+  },
+  "facing=south,red=false": {
+   "model": "pridecarts:signal_post_green",
+   "y": 180
+  },
+  "facing=south,red=true": {
+   "model": "pridecarts:signal_post_red",
+   "y": 180
+  },
+  "facing=west,red=false": {
+   "model": "pridecarts:signal_post_green",
+   "y": 270
+  },
+  "facing=west,red=true": {
+   "model": "pridecarts:signal_post_red",
+   "y": 270
+  }
+ }
+}

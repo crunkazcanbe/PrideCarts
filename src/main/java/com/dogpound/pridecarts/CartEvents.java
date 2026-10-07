@@ -53,9 +53,9 @@ public final class CartEvents {
     }
 
     /** a file named "pridecarts-debug" in the game folder = log every sign decision (for testing) */
-    static final boolean DEBUG = new java.io.File("pridecarts-debug").isFile();
+    public static final boolean DEBUG = new java.io.File("pridecarts-debug").isFile();
 
-    static void dbg(String fmt, Object... args) { if (DEBUG) PrideCarts.LOG.info("[debug] " + fmt, args); }
+    public static void dbg(String fmt, Object... args) { if (DEBUG) PrideCarts.LOG.info("[debug] " + fmt, args); }
 
     private static void signs(EntityMinecart c, BlockPos rail) {
         List<ActionSign> found = ActionSign.at(c.world, rail);
@@ -108,7 +108,8 @@ public final class CartEvents {
         long until = h.getLong("until");
         BlockPos signPos = BlockPos.fromLong(h.getLong("sign"));
         boolean go;
-        if (h.getBoolean("blocker")) go = !blockerActive(c, signPos);
+        if (h.hasKey("signalDir")) go = !c.world.isBlockPowered(signPos) && Signals.clear(c.world, signPos, EnumFacing.getFront(h.getInteger("signalDir")), Train.of(c).carts);
+        else if (h.getBoolean("blocker")) go = !blockerActive(c, signPos);
         else if (h.getBoolean("waiter")) go = com.dogpound.pridecarts.signs.WaiterAction.clear(c, h);
         else if (h.hasKey("mutex")) {
             ActionSign ms = ActionSign.read(c.world, signPos);

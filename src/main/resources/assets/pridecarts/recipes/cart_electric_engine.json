@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["RGR", "PBP", "IMI"], "key": {"R": {"item": "minecraft:redstone"}, "G": {"item": "minecraft:gold_ingot"}, "P": {"item": "minecraft:piston"}, "B": {"item": "minecraft:redstone_block"}, "I": {"item": "minecraft:iron_ingot"}, "M": {"item": "minecraft:minecart"}}, "result": {"item": "pridecarts:cart_electric_engine"}}

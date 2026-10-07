@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "minecraft:minecart"}, {"item": "minecraft:cauldron"}, {"item": "minecraft:iron_ingot"}, {"item": "minecraft:glass"}], "result": {"item": "pridecarts:cart_gas_tanker"}}

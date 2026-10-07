@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shapeless", "ingredients": [{"item": "minecraft:minecart"}, {"item": "minecraft:bed", "data": 11}], "result": {"item": "pridecarts:cart_sleeper"}}
